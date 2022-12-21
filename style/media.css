@@ -1,0 +1,165 @@
+@media(max-width:1100px) {
+    .comerce__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    .custom__cards {
+        flex-wrap: wrap;
+        max-width: 550px;
+        margin: 20px auto;
+        gap: 20px;
+    }
+}
+
+@media(max-width:992px) {
+    .nav__item {
+        flex-direction: column;
+    }
+
+    .nav__item_link {
+        margin: 20px 0;
+        order: 1;
+    }
+
+    .nav__dropdown {
+        top: 35%;
+    }
+
+    .nav__form {
+        margin-top: 20px;
+    }
+
+    .nav__dropdown {
+        top: 27%;
+    }
+}
+
+@media(max-width:768px) {
+    .footer__item {
+        text-align: center;
+        max-width: 600px;
+        flex-wrap: wrap;
+        /* align-items: center; */
+    }
+
+    .footer__item_block {
+        align-items: center;
+    }
+
+    .item__list {
+        align-items: center;
+    }
+
+    .header__content {
+        height: 600px;
+    }
+
+    .comerce__desc {
+        margin-top: 20px;
+    }
+
+    .comerce {
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:576px) {
+    .nav__item_link {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .header__content_title {
+        padding: 17px 22px;
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .custom__cards {
+        justify-content: center;
+    }
+
+    .nav__list_link:nth-child(3) {
+        order: 1;
+    }
+
+    .nav__dropdown {
+        top: 55%;
+        left: 38%;
+        width: 120px;
+        align-items: center;
+    }
+
+    .nav__dropdown_link a {
+        padding: 12px 0px 12px 0px;
+    }
+
+    .comerce__desc_title {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .comerce__desc_text {
+        min-width: 310px;
+    }
+
+    .collection__item_title,
+    .custom__desc_title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .collection__item {
+        text-align: center;
+    }
+
+    .custom__cards {
+        justify-content: center;
+    }
+
+    .custom__card {
+        text-align: center;
+    }
+
+    .custom__card_text {
+        margin-top: 25px;
+    }
+
+    .custom__card_span {
+        justify-content: center;
+    }
+
+    .footer__item {
+        justify-content: center;
+    }
+    .footer__item_block{
+        gap: 20px;
+    }
+}
+
+@media(max-width:375px) {
+    .nav__dropdown {
+        left: 35%;
+    }
+
+    .comerce__desc_title {
+        font-size: 32px;
+        margin-bottom: 5px;
+    }
+    
+        
+    
+    .collection__item_title, 
+    .comerce__desc_title {
+        font-size: 34px;
+    }
+    
+    /* .collection__item_btn{
+        
+    } */
+
+}
